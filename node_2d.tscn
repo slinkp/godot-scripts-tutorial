@@ -6,6 +6,10 @@
 
 [node name="Sprite2D" parent="." instance=ExtResource("1_sk8ae")]
 
+[node name="Paul\'s Cool Timer" type="Timer" parent="Sprite2D"]
+wait_time = 0.33
+autostart = true
+
 [node name="Button" type="Button" parent="."]
 offset_left = 199.0
 offset_top = 83.0
